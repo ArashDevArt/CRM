@@ -11,7 +11,7 @@ const Card = ({ _id , name,lastName,email}) => {
 
   }
   return (
-    <div className='flex justify-between w-full p-4 rounded-lg item-center bg-slate-700'>
+    <div className='flex lg:justify-between w-full p-4 rounded-lg item-center gap-y-10 bg-slate-700 lg:flex-row flex-col justify-center'>
         <div className='flex items-center gap-5 font-mono font-medium text-sky-400'>
             <p>{name} {lastName}</p>
             <p>{email}</p>
